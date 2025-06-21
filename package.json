@@ -1,0 +1,35 @@
+{
+  "name": "Church_Locations",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node churchLocationsImageBuilder.js"
+  },
+  "dependencies": {
+    /* your dependencies here */
+  }
+}
+{
+  "name": "church_locations",
+  "version": "7.0.0",
+  "description": "To search the nearest churches from a user entered post code",
+  "main": "nearest_churches.py",
+  "scripts": {
+    "test": "python nearest_churches.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeyliongames/Church_Locations.git"
+  },
+  "keywords": [
+    "postcode",
+    "church_lat",
+    "church_long"
+  ],
+  "author": "Solomon I. Ubani",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/xeyliongames/Church_Locations/issues"
+  },
+  "homepage": "https://github.com/xeyliongames/Church_Locations#readme"
+}
